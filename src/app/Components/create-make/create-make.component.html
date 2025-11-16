@@ -1,0 +1,29 @@
+<div>
+    <h1 class="text-center">Create Make</h1>
+
+    <form (ngSubmit)="CreateMake()" class="w-50 m-auto" [formGroup]="form">
+        <div class="mb-3">
+            <label for="makeName">Make Name</label>
+            <input type="text" class="form-control" formControlName="makeName">
+        </div>
+        <div class="mb-3">
+            <label for="origin">Origin</label>
+            <input type="text" class="form-control" formControlName="origin">
+        </div>
+        <div class="mb-3">
+            <label for="company">Company</label>
+            <input type="text" class="form-control" formControlName="company">
+        </div>
+        <div class="mb-3">
+            <label for="yearFounded">Year Founded</label>
+            <input type="text" class="form-control" formControlName="yearFounded">
+        </div>
+        <div class="mb-3">
+            <label for="makeAbbreviation">Make Abbreviation</label>
+            <input type="text" class="form-control" formControlName="makeAbbreviation">
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary mt-3">Enter</button>
+        </div>
+    </form>
+</div>

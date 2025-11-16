@@ -1,0 +1,13 @@
+<div class="p-4">
+    <h1 class="text-center">Makes</h1>
+    <div>
+        <div *ngFor="let make of makes"  class="mb-4 border border-primary p-4 w-50 m-auto">
+            <div>Make: {{make.makeName}}</div>
+            <div>Origin: {{make.origin}}</div>
+            <div>MakeCode: {{make.makeCode}}</div>
+            <div>Abbreviation: {{make.makeAbbreviation}}</div>
+            <div>Company: {{make.company}}</div>
+            <div>Year Founded: {{make.yearFounded}}</div>
+        </div>
+    </div>
+</div>
