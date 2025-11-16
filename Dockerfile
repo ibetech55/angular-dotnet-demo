@@ -17,4 +17,5 @@ RUN npm i -g serve
 
 COPY --from=build /app/dist .
 
-CMD ["serve", "-l", "4200", "brand-ms-web-app/browser"]
+CMD ["serve", "-s", "-l", "4200", "brand-ms-web-app/browser"]
+
